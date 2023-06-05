@@ -1,5 +1,7 @@
 # This project is a simplified chatbot
 # The functions simplify the code and make it more efficient to use
+# This project is basically showcasing my ability to simplify the code into reusable functions
+
 def greet(bot_name, birth_year):
     print('Hello! My name is ' + bot_name + '.')
     print('I was created in ' + birth_year + '.')
@@ -35,7 +37,6 @@ def count():
 
 def test():
     print("Let's test your programming knowledge.")
-    # write your code here
     while True:
         print("""Why do we use methods?
                 1. To repeat a statement multiple times.
@@ -53,8 +54,8 @@ def test():
 def end():
     print('Congratulations, have a nice day!')
 
-
-greet('Aid', '2020')  # change it as you need
+# Program is run by calling the following functions below
+greet('Aid', '2020')  
 remind_name()
 guess_age()
 count()
